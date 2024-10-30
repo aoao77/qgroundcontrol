@@ -196,6 +196,14 @@ Rectangle {
                                 property Fact _enableCustomActions: QGroundControl.settingsManager.flyViewSettings.enableCustomActions
                             }
 
+                            FactCheckBox {
+                                text:       qsTr("Show Point Cloud Viewer")
+                                visible:    _showPointCloudViewer.visible
+                                fact:       _showPointCloudViewer
+
+                                property Fact _showPointCloudViewer: QGroundControl.settingsManager.flyViewSettings.showPointCloudViewer
+                            }
+
                             //-----------------------------------------------------------------
                             //-- CustomAction definition path
                             GridLayout {

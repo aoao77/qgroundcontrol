@@ -80,6 +80,12 @@
     "default":   false
 },
 {
+    "name":      "showPointCloudViewer",
+    "shortDesc": "Show Point Cloud Viewer",
+    "type":      "bool",
+    "default":   false
+},
+{
     "name":      "customActionDefinitions",
     "shortDesc": "Custom Action Definitions",
     "longDesc":  "File that defines custom actions to send connected vehicle",

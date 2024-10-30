@@ -31,5 +31,6 @@ public:
     DEFINE_SETTINGFACT(showObstacleDistanceOverlay)
     DEFINE_SETTINGFACT(updateHomePosition)
     DEFINE_SETTINGFACT(enableCustomActions)
+    DEFINE_SETTINGFACT(showPointCloudViewer)
     DEFINE_SETTINGFACT(customActionDefinitions)
 };
